@@ -1,0 +1,141 @@
+\documentclass[a4paper,12pt,fleqn,leqno]{article}
+\usepackage[T1]{fontenc}
+\usepackage{mathtools}
+\usepackage{amsfonts}
+\usepackage{bm}
+
+\begin{document}
+
+\section{Inline and display mathematics}
+
+The formula is now displayed separately:
+\[
+y = mx + c
+\]
+
+The same formula in display mode:
+\[
+y = mx + c
+\]
+
+Superscripts and subscripts:
+$a^{b}$, $a_{b}$, $x^{2}$, $x_{i}$.
+
+Greek letters and mathematical functions:
+$\alpha$, $\beta$, $\theta$, $\Gamma$, $\Delta$,
+$y = 2\sin\theta^{2}$, $\log x$.
+
+\section{Numbered equation}
+
+An integral with an automatically generated number:
+\begin{equation}
+\int_{-\infty}^{+\infty} e^{-x^{2}} \, dx
+\end{equation}
+
+\section{Aligned equations}
+
+A recurrence without equation numbers:
+\begin{align*}
+Q_{n,0} &= 1 \quad Q_{0,k} = [k=0]; \\
+Q_{n,k} &= Q_{n-1,k}+Q_{n-1,k-1}+\binom{n}{k},
+           \quad\text{for $n$, $k>0$.}
+\end{align*}
+
+Several columns of aligned equations:
+\begin{align*}
+a &= b+1   & c &= d+2   & e &= f+3 \\
+r &= s^{2} & t &= u^{3} & v &= w^{4}
+\end{align*}
+
+\section{Matrices}
+
+Three matrix styles:
+\[
+\begin{matrix}
+a & b & c \\
+d & e & f
+\end{matrix}
+\quad
+\begin{pmatrix}
+a & b & c \\
+d & e & f
+\end{pmatrix}
+\quad
+\begin{bmatrix}
+a & b & c \\
+d & e & f
+\end{bmatrix}
+\]
+
+Right-aligned matrix columns using mathtools:
+\[
+\begin{pmatrix*}[r]
+10 & 11 \\
+1 & 2 \\
+-5 & -6
+\end{pmatrix*}
+\]
+
+\section{Other multiline environments}
+
+Centered equations without alignment:
+\begin{gather}
+P(x)=ax^{5}+bx^{4}+cx^{3}+dx^{2}+ex+f \\
+x^{2}+x=10
+\end{gather}
+
+A single expression split across several lines:
+\begin{multline*}
+(a+b+c+d)x^{5}+(b+c+d+e)x^{4} \\
++(c+d+e+f)x^{3}+(d+e+f+a)x^{2}+(e+f+a+b)x \\
++(f+a+b+c)
+\end{multline*}
+
+An aligned block inside a larger expression:
+\[
+\left\{
+\begin{aligned}
+a &= b \\
+c &= d
+\end{aligned}
+\right.
+\]
+
+\section{Mathematical fonts}
+
+\[
+\mathrm{ABC}
+\quad \mathit{ABC}
+\quad \mathbf{ABC}
+\quad \mathsf{ABC}
+\quad \mathtt{ABC}
+\quad \mathbb{ABC}
+\]
+
+Comparing several ways of writing a word:
+\[
+size \neq \mathit{size} \neq \mathrm{size}
+\]
+
+Nested font commands:
+\[
+\mathbf{\mathit{ABC}}
+\quad
+\mathit{\mathbf{ABC}}
+\]
+
+\section{Bold mathematics}
+
+Normal weight:
+$(x+y)(x-y)=x^{2}-y^{2}$.
+
+A bold expression:
+{\boldmath $(x+y)(x-y)=x^{2}-y^{2}$}.
+
+Individual bold Latin letters:
+$(x+\mathbf{y})(x-\mathbf{y})=x^{2}-\mathbf{y}^{2}$.
+
+Bold Greek letters using bm:
+$\alpha+\bm{\alpha}<\beta+\bm{\beta}$.
+
+\end{document}

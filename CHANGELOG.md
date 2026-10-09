@@ -1,3 +1,9 @@
+# [3.0.0](https://gitverse.ru/aayurchenko/2026-2-study-practical-scientific-writing/compare/v2.0.0...v3.0.0) (2026-10-09)
+
+### Features
+
+* **lab03:** add LaTeX math examples report and presentation ([f542c70](https://gitverse.ru/aayurchenko/2026-2-study-practical-scientific-writing/commits/f542c70b27b2e1c55a683c9226bdc352ea0f7ea4))
+
 # [2.0.0](https://gitverse.ru/aayurchenko/2026-2-study-practical-scientific-writing/compare/v1.1.0...v2.0.0) (2026-10-09)
 
 ### Features
