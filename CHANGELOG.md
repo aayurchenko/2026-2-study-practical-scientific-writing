@@ -1,3 +1,11 @@
+# [4.0.0](https://gitverse.ru/aayurchenko/2026-2-study-practical-scientific-writing/compare/v3.0.0...v4.0.0) (2026-10-23)
+
+### Features
+
+* **lab04:** add graphics examples and seven exercises ([1e67211](https://gitverse.ru/aayurchenko/2026-2-study-practical-scientific-writing/commits/1e672112630debe208f59a9c2e51b5dbbbdc9b19))
+* **lab04:** add presentation on graphics in LaTeX ([a453589](https://gitverse.ru/aayurchenko/2026-2-study-practical-scientific-writing/commits/a453589fbbedf12fc85927e7d7e538cef1e2f48e))
+* **lab04:** add report on graphics and cross-references ([bcd344d](https://gitverse.ru/aayurchenko/2026-2-study-practical-scientific-writing/commits/bcd344daa240a329eee26eb816590ad06126aa73))
+
 # [3.0.0](https://gitverse.ru/aayurchenko/2026-2-study-practical-scientific-writing/compare/v2.0.0...v3.0.0) (2026-10-09)
 
 ### Features
