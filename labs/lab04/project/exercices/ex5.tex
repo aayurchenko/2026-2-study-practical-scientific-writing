@@ -1,0 +1,36 @@
+\documentclass{article}
+\usepackage[T1]{fontenc}
+
+\begin{document}
+
+\section*{References}
+
+Section: \ref{sec:main}.
+
+Subsection: \ref{subsec:details}.
+
+First item: \ref{item:first}.
+
+Second item: \ref{item:second}.
+
+\section{Additional section}
+
+\section{Main section}
+\label{sec:main}
+
+Some text.
+
+\subsection{Details}
+\label{subsec:details}
+
+\begin{enumerate}
+    \item Additional item.
+
+    \item First labelled item.
+    \label{item:first}
+
+    \item Second labelled item.
+    \label{item:second}
+\end{enumerate}
+
+\end{document}

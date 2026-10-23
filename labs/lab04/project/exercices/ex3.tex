@@ -1,0 +1,24 @@
+\documentclass[twocolumn]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+
+\begin{document}
+
+\section{Width comparison}
+
+Current textwidth: \the\textwidth.
+
+Current linewidth: \the\linewidth.
+
+\subsection{Relative to textwidth}
+
+\noindent
+\includegraphics[width=0.8\textwidth]{../pix/my-pic.jpg}
+
+\subsection{Relative to linewidth}
+
+\noindent
+\includegraphics[width=0.8\linewidth]{../pix/my-pic.jpg}
+
+\end{document}

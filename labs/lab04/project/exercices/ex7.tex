@@ -1,0 +1,26 @@
+\documentclass{article}
+\usepackage[T1]{fontenc}
+
+\begin{document}
+
+% Deliberately make section and equation numbers different.
+\setcounter{section}{4}
+\section{Equation labels}
+
+\begin{equation}
+    e^{i\pi}+1=0
+    \label{eq:inside}
+\end{equation}
+
+\begin{equation}
+    a^2+b^2=c^2
+\end{equation}
+\label{eq:outside}
+
+Reference to the label inside equation:
+(\ref{eq:inside}).
+
+Reference to the label outside equation:
+(\ref{eq:outside}).
+
+\end{document}
