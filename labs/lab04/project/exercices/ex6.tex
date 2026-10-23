@@ -1,0 +1,30 @@
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{float}
+
+\begin{document}
+
+% Deliberately make section and figure numbers different.
+\setcounter{section}{4}
+\section{Label placement experiment}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.35\linewidth]{../pix/my-pic.jpg}
+    \label{fig:before}
+    \caption{Label BEFORE caption}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.35\linewidth]{../pix/my-pic.jpg}
+    \caption{Label AFTER caption}
+    \label{fig:after}
+\end{figure}
+
+Reference with label before caption: \ref{fig:before}.
+
+Reference with label after caption: \ref{fig:after}.
+
+\end{document}
