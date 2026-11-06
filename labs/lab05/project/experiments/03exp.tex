@@ -1,0 +1,34 @@
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage{array}
+
+\begin{document}
+
+\section*{Exercise 3: Too few entries}
+
+\subsection*{Complete rows}
+
+\begin{tabular}{lll}
+Animal & Food & Size \\
+dog & meat & medium \\
+horse & hay & large \\
+\end{tabular}
+
+\subsection*{Missing entries at the end}
+
+\begin{tabular}{lll}
+Animal & Food & Size \\
+dog & meat \\
+horse \\
+frog & flies & small \\
+\end{tabular}
+
+\subsection*{An explicitly empty middle cell}
+
+\begin{tabular}{lll}
+Animal & Food & Size \\
+dog & & medium \\
+horse & hay & large \\
+\end{tabular}
+
+\end{document}
