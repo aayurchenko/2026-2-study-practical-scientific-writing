@@ -1,3 +1,11 @@
+# [5.0.0](https://gitverse.ru/aayurchenko/2026-2-study-practical-scientific-writing/compare/v4.0.0...v5.0.0) (2026-11-06)
+
+### Features
+
+* **lab05:** document table formatting and experiment results ([6ff7f39](https://gitverse.ru/aayurchenko/2026-2-study-practical-scientific-writing/commits/6ff7f390f15725fdff2c408edea416776a9cd05d))
+* **lab05:** implement table examples and alignment experiments ([f7f9aec](https://gitverse.ru/aayurchenko/2026-2-study-practical-scientific-writing/commits/f7f9aec0d967a53bfa750c95d3e72073dbdbfd23))
+* **lab05:** prepare slides on LaTeX table techniques ([4cc38bd](https://gitverse.ru/aayurchenko/2026-2-study-practical-scientific-writing/commits/4cc38bd2d8adcc8b606127db0e970bbc7bcaac96))
+
 # [4.0.0](https://gitverse.ru/aayurchenko/2026-2-study-practical-scientific-writing/compare/v3.0.0...v4.0.0) (2026-10-23)
 
 ### Features
